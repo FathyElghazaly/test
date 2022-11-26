@@ -15,10 +15,10 @@ jobs:
       - uses: actions/checkout@v3  
 
       - name: "Login to Docker hub"
-        run: docker login --username FathyElghazaly --password dckr_pat_zNAzQMssCmgBx0Thjm3k7MkIDog
+        run: docker login --username fathyelghazaly --password dckr_pat_XKjwCy-vNjKzG4zypmLwmTm1g_E
 
       - name: "Building Docker Image"
-        run: docker build -t FathyElghazaly/image .
+        run: docker build -t fathyelghazaly/image .
       
       - name: "Pushing to Docker hub"
-        run: docker push FathyElghazaly/image
+        run: docker push fathyelghazaly/image
