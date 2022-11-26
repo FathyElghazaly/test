@@ -2,7 +2,7 @@ FROM openjdk
 
 WORKDIR /application
 
-COPY mohmed.java .
+COPY fathy.java .
 
 RUN javac mohmed.java
 
