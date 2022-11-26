@@ -4,6 +4,6 @@ WORKDIR /application
 
 COPY fathy.java .
 
-RUN javac mohmed.java
+RUN javac fathy.java
 
-CMD java mohmed 
+CMD java fathy
